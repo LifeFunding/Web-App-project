@@ -13,10 +13,10 @@
     position:absolute;
     top:100px;
     left:50%;
-    background-color: black;
+    background-color: #FFF6EF;
     text-align: center;
     vertical-align: middle;
-    color: white;
+    color: #635D5D;
     margin-left: -100px;
     
     
@@ -46,6 +46,7 @@
 }
 
 #createAccount{
+    color: #635D5D;
     margin-top: 60px;
     margin-left: 30px;
     margin-bottom: 0;
@@ -88,7 +89,8 @@ hr{
 }
 
 #finish{
-    background-color: black;
+    border: #635D5D;
+    background-color: #908282;
     color: white;
     padding: 5px;
     padding-left: 12%;
