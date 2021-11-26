@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", maximun-scale=2.0, minimum-scale=1.0, user-scalable = yes, shrink-tp-fit=no">
+    <!--[if IE]>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <![endif]-->
+    <title>Life Funding</title>
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/writer_page_web.css" type="text/css">
+    <script src="https://kit.fontawesome.com/2901f4f5e1.js" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="../js/mypage.js"></script>
+</head>
+<body>
+    <!--header에는 로그인과 로고, 그리고 상단 메뉴바가 소속된다-->
+    <header>
+        <section id="headerWrap">
+            <div id="TopColor"></div>
+            <div id="titleBox">
+                <h1 id="title"> Life funding</h1>
+                <h4 id="plan_funding">펀딩예정</h4>
+                <h4 id="do_funding">펀딩하기</h4>
+                <h4 id="mypage">마이페이지</h4>
+                <div id="search">
+                    <img id="s_img" src="../img/search.png">
+                    <input type="text" id="s_box" placeholder="궁금한 인생을 입력하세요!">
+                </div>
+                <h4 id="login">로그인</h4>
+                <h4 id="join">회원가입</h4>
+                <div id="fund_box">
+                    <h5 id="open_funding">펀딩 오픈</h5>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- main에는 프로필 정보 및 진행중인 펀딩 보여준다 -->
+    <main>
+        <div class="wrap">
+            <section id="profile">
+                <div class="left">
+                    <img src="../img/profile1.png" alt="프로필 이미지"> 
+                    <h1>마케터-유빈</h1>
+                    <div id="state">
+                        <div class="box box1">#마케터</div>
+                        <div class="box box2">#취준생</div> 
+                        <div class="box box3">#도전</div>
+                        <div class="box box4">#열정</div>
+                        <div class="box box5">#졸업반</div>
+                        <div class="box box6">#막학기</div>
+                        <div class="box box7">#고민</div>
+                        <div class="box box8">#응원</div>
+                    </div>
+                <div class="right">
+                    <div class="feature">
+                        <i class="fab far fa-star"></i>
+                        <h3>인기도 <b>5.0</b></h3>
+                    </div>
+                    <div class="feature">
+                        <i class="fab far fas fa-user-friends"></i>
+                        <h3>서포터 <b>385명</b></h3>
+                    </div>
+                    <div class="btnFollow">
+                        <a href="#">+ Follow</a> 
+                    </div>
+                </div>
+            </section>
+            <section id="my_list">
+                <div class="funding_story">
+                    <h2>#지금 펀딩할 스토리</h2>
+                </div>
+                
+                <div id="wrapper_card">
+                    <div class="card">
+                        <figure>
+                            <img src="../img/content1.png">
+                        </figure>
+                        <span>졸업 후 방황을 겪는 마케터의 이야기 <strong id="s1">333명</strong> 참여</span>
+                        <div id="percentage_back"></div>
+                        <div id="percentage_front"></div>
+                        <p><b>43%</b> ● 216,000원</p>
+                        <div class="me_fund">
+                            <h3>나도 펀딩하기</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="../img/content10.png">
+                        </figure>
+                        <span>서울 곳곳 사진 투어<strong id="s2">333명</strong> 참여</span>
+                        <div id="percentage_back"></div>
+                        <div id="percentage_front"></div>
+                        <p><b>43%</b> ● 216,000원</p>
+                        <div class="me_fund">
+                            <h3>나도 펀딩하기</h3>
+                        </div>
+                    </div>      
+                </div>
+            </section>
+        </div>
+    </main>
+    <section id="footerWrap">
+        <div id="sns">
+            <img id="facebookIcon" class="snsIcon" src="../img/facebookIcon.png" alt="facebookIcon"/>
+            <img id="twitterIcon" class="snsIcon" src="../img/twitterIcon.png" alt="twitterIcon"/>
+            <img id="instagramIcon" class="snsIcon" src="../img/instagramIcon.png" alt="instagramIcon"/><br/><br/>
+        </div>
+        <h id="copyright">©2021 by Life Funding produced by Web/App Projects</h>
+    </section>
+</body>
+</html>
