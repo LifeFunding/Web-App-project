@@ -139,6 +139,9 @@
     #contentWrap .firstline .content1 #str1 {
         margin-top : 0%;
     }
+    #contentWrap .firstline .content1 #str1:hover {
+        background-color : #bbb5b7;
+    }
     #contentWrap .firstline .content1 #num1 {
         margin-top : -1%;
         font-size : 13px;

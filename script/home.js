@@ -11,4 +11,10 @@ $(document).ready(function(){
     $('#headerWrap #titleBox #join').click(function(){
         window.location.href="../html/join.html";
     });
+    $('#contentWrap .firstline .content1 #img1').click(function(){
+        window.location.href="../html/lifepost.html";
+    });
+    $('#contentWrap .firstline .content1 #str1').click(function(){
+        window.location.href="../html/lifepost.html";
+    });
 });
