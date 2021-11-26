@@ -1,0 +1,193 @@
+#headerWrap {
+    height : 120px;
+    margin-left : 2.5%;
+}
+#headerWrap #TopColor {
+    width : 1440px;
+    height: 50px;
+    background-color: rgb(247, 238, 226);
+}
+#headerWrap #titleBox {
+    text-align: center;
+    display: inline-flex;
+    margin-left: 5%;
+    width : 95%;
+}
+#headerWrap #titleBox #title {
+    color: rgb(68, 53, 30);
+}
+#headerWrap #titleBox #plan_funding {
+    text-align: center;
+    margin-top : 2.1%;
+    margin-left : 5%;
+}
+#headerWrap #titleBox #do_funding {
+    text-align: center;
+    margin-top : 2.1%;
+    margin-left : 4%;
+}
+#headerWrap #titleBox #mypage {
+    text-align: center;
+    margin-top : 2.1%;
+    margin-left : 4%;
+}
+#headerWrap #titleBox #search {
+    height : 35px;
+    width : 250px;
+    border : 1px solid #bbb5b7;
+    border-radius: 5px;
+    margin-top : 1.5%;
+    margin-left : 12%;
+}
+#headerWrap #titleBox #search #s_box {
+    font-size : 13px;
+    padding : 9px;
+    border : 0px;
+    outline : none;
+    float : left;
+}
+#headerWrap #titleBox #search #s_img {
+    margin-top : 9px;
+    margin-right : -30px;
+}
+#headerWrap #titleBox #login {
+    text-align: center;
+    margin-top : 2.1%;
+    margin-left : 4%;
+}
+#headerWrap #titleBox #join {
+    text-align: center;
+    margin-top : 2.1%;
+    margin-left : 4%;
+}
+#headerWrap #titleBox #fund_box {
+    border : 1px solid rgb(148, 117, 77);
+    text-align : center;
+    margin-left : 4%;
+    margin-top : 1.7%;
+    width : 80px;
+    height : 30px;
+}
+#headerWrap #titleBox #fund_box #open_funding {
+    margin-top : 6%;
+    color :rgb(148, 117, 77);
+}
+
+
+
+#contentWrap {
+    
+    width: 1440px;
+    height: 100%;
+    margin-top: 120px;
+    
+    
+    
+}
+
+#contentWrap #uploadBox{
+    
+    width: 900px;
+    height: 650px;
+    box-shadow: 2px 2px 5px 2px gray;
+    background-color: white;
+    margin :0 auto;
+}
+
+#contentWrap #uploadBox #inputTitle{
+    width:100%;
+    height: 20%;
+   
+    
+    padding-top: 10%;
+    
+}
+
+#contentWrap #uploadBox #title{
+    font-size: 30px;
+    display: block;
+    margin:0 auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom : 3px solid black;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin: 0 auto;
+
+   
+    
+}
+
+#contentWrap #uploadBox #uploadBtn{
+    position: relative;
+    display: inline-block;
+    left: 85%;
+    border : none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #F4D4CA;
+    padding: 5px;;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    
+    
+}
+
+#contentWrap #uploadBox #writing {
+    width: 100%;
+    height: fit-content;
+    
+    text-align: center;
+   
+    
+}
+#contentWrap #uploadBox #writing #writeText{
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+    background-color: #C4C4C4;
+    border-color: #5E4937;
+
+}
+#contentWrap #uploadBox #writing #uploadPicture{
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+    color: white;
+    background-color: #908282;
+    border-color: #5E4937;
+
+}
+
+#contentWrap #uploadBox #writing #pictureForm{
+    width: 900px;
+    height: 402.5px;
+    background-color: white;
+    text-align: center;
+    
+
+}
+
+#contentWrap #uploadBox #writing #pictureForm #pic{
+    display: inline-block;
+    margin-top: 10%;
+    width: 200px;
+
+}
+#contentWrap #uploadBox #writing #pictureForm #picUpload{
+    display: inline-block;
+   font-weight: bold;
+   font-size: 20px;
+    background-color: #C4C4C4;
+    padding: 5px;;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    border:none;
+   
+
+}
