@@ -8,4 +8,17 @@ $(document).ready(function(){
     $('#headerWrap #titleBox #join').click(function(){
         window.location.href="../html/join.html";
     });
+
+    $('#contentWrap .main2 #reward1').click(function(){
+        window.location.href="../html/rewarding.html"
+    })
+    $('#contentWrap .main2 #reward2').click(function(){
+        window.location.href="../html/rewarding.html"
+    })
+    $('#contentWrap .main2 #reward3').click(function(){
+        window.location.href="../html/rewarding.html"
+    })
+    $('#contentWrap .main2 #reward4').click(function(){
+        window.location.href="../html/rewarding.html"
+    })
 });
