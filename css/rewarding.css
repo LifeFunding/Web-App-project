@@ -295,6 +295,29 @@ input[type="checkbox"]{
     border-radius: 20px;
     text-align: center;
 }
+
+#footerWrap {
+    width:fit-content;
+    position:absolute;
+    top:1500px;
+    margin-left:-168px;
+    left: 50%;
+    
+    text-align: center;
+    
+    font-size: 14px;
+}
+#footerWrap .snsIcon {
+    width: 20px;
+    padding: 3px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+#footerWrap #copyright {
+    color: #2f3c3dee;
+}
+
+
   
    
    
