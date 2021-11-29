@@ -11,4 +11,8 @@ $(document).ready(function(){
     $('#headerWrap #titleBox #join').click(function(){
         window.location.href="../html/join.html";
     });
+    $('#selectFunding #nextStage').click(function(){
+        window.location.href="../html/pay.html";
+    });
+
 });
