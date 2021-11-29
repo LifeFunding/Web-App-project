@@ -23,4 +23,10 @@ $(document).ready(function(){
     $('#contentWrap .main2 #reward4').click(function(){
         window.location.href="../html/rewarding.html"
     })
+    $('#contentWrap .main2 #maker #profileimg').click(function(){
+        window.location.href="../html/writer_page.html"
+    })
+    $('#contentWrap .main2 #maker #p10').click(function(){
+        window.location.href="../html/writer_page.html"
+    })
 });
