@@ -1,0 +1,311 @@
+#headerWrap {
+    height : 120px;
+    margin-left : 2.5%;
+}
+#headerWrap #TopColor {
+    width : 1440px;
+    height: 50px;
+    background-color: rgb(247, 238, 226);
+}
+#headerWrap #titleBox {
+    text-align: center;
+    display: inline-flex;
+    margin-left: 5%;
+    width : 95%;
+}
+#headerWrap #titleBox #title {
+    color: rgb(68, 53, 30);
+}
+#headerWrap #titleBox #plan_funding {
+    text-align: center;
+    margin-top : 2.1%;
+    margin-left : 5%;
+}
+#headerWrap #titleBox #do_funding {
+    text-align: center;
+    margin-top : 2.1%;
+    margin-left : 4%;
+}
+#headerWrap #titleBox #mypage {
+    text-align: center;
+    margin-top : 2.1%;
+    margin-left : 4%;
+}
+#headerWrap #titleBox #search {
+    height : 35px;
+    width : 250px;
+    border : 1px solid #bbb5b7;
+    border-radius: 5px;
+    margin-top : 1.5%;
+    margin-left : 12%;
+}
+#headerWrap #titleBox #search #s_box {
+    font-size : 13px;
+    padding : 9px;
+    border : 0px;
+    outline : none;
+    float : left;
+}
+#headerWrap #titleBox #search #s_img {
+    margin-top : 9px;
+    margin-right : -30px;
+}
+#headerWrap #titleBox #login {
+    text-align: center;
+    margin-top : 2.1%;
+    margin-left : 4%;
+}
+#headerWrap #titleBox #join {
+    text-align: center;
+    margin-top : 2.1%;
+    margin-left : 4%;
+}
+#headerWrap #titleBox #fund_box {
+    border : 1px solid rgb(148, 117, 77);
+    text-align : center;
+    margin-left : 4%;
+    margin-top : 1.7%;
+    width : 80px;
+    height : 30px;
+}
+#headerWrap #titleBox #fund_box #open_funding {
+    margin-top : 6%;
+    color :rgb(148, 117, 77);
+}
+
+#contentWrap{
+    margin-top: 60px;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    overflow:auto;
+}
+
+#contentWrap #process{
+    position:absolute;
+    left: 50%;
+    top:50%;
+    margin-left: -326px;
+    margin-top:-86px;
+    display: inline-block;
+    text-align: center;
+}
+
+#contentWrap #process div{
+    width: 80px;
+    height: 80px;
+    display:inline-block;
+    background-color: #F4D4CA;
+    padding: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin:20px;
+}
+
+#contentWrap #process div>span{
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #5E4937;
+    
+
+}
+#contentWrap #process>hr{
+    display: inline-flex;
+    border: none;
+    border-top: 3px dotted black;
+    color: #fff;
+    height: 1px;
+    width: 55px;
+}
+
+#contentWrap #process #advertise,#contentWrap #process #selectMoney{
+    background-color: white;
+    border : 1px solid #5E4937;
+}
+
+#selectFunding{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+#selectFunding >p{
+    text-align: center;
+    margin: 0;
+}
+
+#selectFunding > p > strong{
+    color: #5E4937;
+    display: inline-block;
+    font-size:30px;
+    padding:10px;
+}
+#selectFunding #checkboxList{
+    display: box;
+    position: absolute;
+    width: 800px;
+    left: 50%;
+    margin-left: -400px;
+}
+
+#selectFunding #checkboxList>div{
+    margin: 5%;
+    border:1px solid #5E4937;
+    height: 170px;
+}
+
+
+input[type="checkbox"]{
+    display:none;
+    }
+
+  input[type="checkbox"] + label{
+    cursor:pointer;
+   }
+  
+
+  input[type="checkbox"] + label:before{
+    margin-left: 5%;
+    margin-top: 3%;
+    content:"";
+    display:inline-block;
+    width:25px;
+    height:25px;
+    line-height:25px;
+    border:1px solid #5E4937;
+    vertical-align:middle;
+    }
+    
+
+  input[type="checkbox"]:checked + label:before{
+    content:"\2713";
+    font-family:"Font Awesome 5 free"; 
+    font-weight:900;
+    color:#fff;
+    background-color: #5E4937;
+    border-color: #5E4937;
+    font-size:20px;
+    text-align:center;
+    }
+
+    #selectFunding #checkboxList label>div{
+        margin-left: 5%;
+        display: inline-block;
+        
+    }
+    #selectFunding #checkboxList label>div>h3{
+        display: inline-block;
+    }
+
+    #selectFunding #checkboxList label>p{
+        margin-left: 15%;
+    }
+    
+    #selectFunding #customMoney{
+        margin-top: 700px;
+    }
+
+    #selectFunding #inputSumBox{
+        padding-top: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+
+    #selectFunding #customMoney input[type="text"]{
+        display: inline-box;
+        margin: 20px;
+    }
+  #selectFunding #inputSum{
+      width: 10%;
+      font-size: 30px;
+      transition: border-color 1s;
+  }
+  #selectFunding #inputSum:hover{
+      border-color: #F4D4CA;
+      
+
+  }
+
+  #selectFunding #inputSum>span{
+      font-size: 20px;
+  }
+  
+  #selectFunding #inputMessage{
+      width:35%;
+      margin-top: 20px;
+      padding: 5px;
+      font-size: 20px;
+  }
+
+  #selectFunding #disclosure{
+      margin-top: 50px;
+  }
+
+  #selectFunding #disclosureCheck{
+      margin-top: 50px;
+      text-align: center;
+  }
+
+  #selectFunding #disclosureCheck input[type="checkbox"]+ label:before{
+
+    margin-left: 0;
+    margin-top: 0;
+  }
+  #selectFunding #disclosureCheck #open{
+      margin-right: 20px;
+  }
+  #selectFunding #disclosureCheck #close{
+    margin-left: 20px;
+}
+
+#selectFunding #nextStage{
+    margin-top: 60px;
+    display: block;
+    position: absolute;
+    left:50%;
+    margin-left: -65px;
+    
+    border : none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #F4D4CA;
+    padding: 5px;;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#footerWrap {
+    width:fit-content;
+    position:absolute;
+    top:1500px;
+    margin-left:-168px;
+    left: 50%;
+    
+    text-align: center;
+    
+    font-size: 14px;
+}
+#footerWrap .snsIcon {
+    width: 20px;
+    padding: 3px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+#footerWrap #copyright {
+    color: #2f3c3dee;
+}
+
+
+  
+   
+   
+    
+    
+

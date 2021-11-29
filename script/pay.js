@@ -12,7 +12,7 @@ $(document).ready(function(){
         window.location.href="../html/join.html";
     });
     $('#selectFunding #nextStage').click(function(){
-        window.location.href="../html/pay.html";
+        window.location.href="../html/recommend.html";
     });
 
 });
