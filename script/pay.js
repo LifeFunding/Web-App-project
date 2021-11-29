@@ -11,8 +11,13 @@ $(document).ready(function(){
     $('#headerWrap #titleBox #join').click(function(){
         window.location.href="../html/join.html";
     });
-    $('#selectFunding #nextStage').click(function(){
+    $('#nextStage').click(function(){
         window.location.href="../html/recommend.html";
     });
+    $('#beforeStage').click(function(){
+        window.location.href="../html/rewarding.html";
+    });
+
+
 
 });

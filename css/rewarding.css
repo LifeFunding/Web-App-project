@@ -304,7 +304,7 @@ input[type="checkbox"]{
     left: 50%;
     
     text-align: center;
-    
+    padding-bottom: 50px;
     font-size: 14px;
 }
 #footerWrap .snsIcon {

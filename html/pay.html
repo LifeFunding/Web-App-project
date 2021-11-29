@@ -44,76 +44,69 @@
                 </div>
         </div>
     </section>
-    <section id="selectFunding">
-        <p id="selectReward">
-            <strong>리워드 선택</strong><br>펀딩해주시는 금액에 따라 감사의 의미로 리워드를 제공해 드립니다.
-        </p>
-        <form id="checkboxList">
-            <div>
-                <input type="checkbox" id="1000$">
-                <label for="1000$">
+    <section id="contentWrap2">
+        <div>
+            <hr>
+            <div class="flexBox" id="fb1">
                     <div>
-                        <h3>1000원 펀딩합니다.</h3>         
-                    </div>
-                    <p>
-                        당신의 인생을 응원합니다!
-                    </p>
-                </label>
-            </div>
-            <div>
-                <input type="checkbox" id="5000$">
-                <label for="5000$">
-                    <div>
-                        <h3>5000원 펀딩합니다.</h3>        
-                    </div>
-                    <p>
-                        멋진 당신의 인생을 응원합니다!
-                    </p>
-                </label>
-            </div>
-            <div>
-                <input type="checkbox"  id="10000$">
-                <label for="10000$">
-                    <div>
-                        <h3>10000원 펀딩합니다.</h3>
-                    </div>
+                        <span id="fundingMoney">펀딩금액</span>
                         <p>
-                            앞으로가 더 기대되는 당신의 인생을 응원합니다!
+                            멋진 당신의 인생을 응원합니다.
                         </p>
-                </label>
+                        <span class="money">5000원</span>
+    
+                    </div>
+                    <hr>
+                    <div>
+                        <span id="donation">후원금 ( 선택 )</span>
+                        <p>
+                            라이퍼님 항상 좋은일만 가득하세요!
+                        </p>
+                        <span class="money"> 3000원</span>
+    
+                    </div>
+                
             </div>
-        </form>
+            <hr id="seperation">
 
-       <p id="customMoney">
-        <strong >후원금 입력</strong><br>후원금을 직접 선택하고 당신만의 응원 메시지를 남겨보세요!
-        </p>
-        <div id="inputSumBox">
-            <input type="text" id="inputSum" value="0">
-            <span>원 을 후원합니다.</span>
+            <div class="flexBox" id="fb2" >
+                <div id="coupon">
+                    <div id="userCoupon">쿠폰 사용</div>
+                    <span>사용가능한 쿠폰이 없습니다.</span>
+
+                </div>
+                <hr>
+                <div id="point">
+                    <div id="userPoint">포인트 사용</div>
+                    <input type="text" id="holdingMoney">
+                    <label for="holdingMoney"> ( 보유 포인트 0p )</label>
+
+
+                </div>
+
+            </div>
+            <hr>
             
-            <br>
-            <input type="text" id="inputMessage" placeholder="라이퍼님 항상 좋은일만 가득하세요!">
-        </div>
+            <div class="flexBox" id="fb3">
+                <div>최종 결제금액</div>
+                <div id="final">8000원</div>
 
-        <p id="disclosure" >
-            <strong >공개 여부 ( 선택 )</strong><br>서포터 목록에 서포터 이름과 펀딩 금액이 공개됩니다. <br> 조용히 펀딩하고 싶으시다면, 비공개로 선택해주세요.
+            </div>
             
 
-        </p>
-        <div id="disclosureCheck">
-            <input type="checkbox" id="open">
-        <label for="open">
-           공개
-        </label>
-        <input type="checkbox" id="close">
-        <label for="close">
-           비공개
-        </label>
-
         </div>
-        <button type="button" id="nextStage">
-            다음단계
-        </button>
+    </section>
+    
+        </div>
+        <div class="btnStage">
+            <button type="button" id="beforeStage">
+                이전단계
+            </button>
+            <button type="button" id="nextStage">
+                결제예약
+            </button>
+        </div>
+    
 
         <section id="footerWrap">
             <div id="sns">
