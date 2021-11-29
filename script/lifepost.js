@@ -8,7 +8,9 @@ $(document).ready(function(){
     $('#headerWrap #titleBox #join').click(function(){
         window.location.href="../html/join.html";
     });
-
+    $('#contentWrap .storybox .secbox #sbox #str6').click(function(){
+        window.location.href="../html/rewarding.html"
+    })
     $('#contentWrap .main2 #reward1').click(function(){
         window.location.href="../html/rewarding.html"
     })
