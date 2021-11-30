@@ -22,6 +22,7 @@
     }
     #headerWrap #titleBox #title {
         color: rgb(68, 53, 30);
+        margin-top : 1.5%;
     }
     #headerWrap #titleBox #plan_funding {
         text-align: center;
@@ -228,24 +229,25 @@
     }
 
     #profile nav.info{
-        width: 750px;
-        margin-left: 730px;
+        width: 470px;
+        margin-left: 723px;
         margin-top:-450px;
         text-align: center;
     }
 
     #profile .info_nav{
-        width: 100%;
+        width: 470px;
         border-radius:20px;
         background:#fff;
+        padding-bottom: 5px;
     }
 
     #profile .info_nav a{
         display: inline-block;
-	    width: 180px;
-	    height: 160px;
-	    margin: 10px 2px;
-        line-height:220px;
+	    width: 100px;
+	    height: 80px;
+	    margin: 5px 2px;
+        line-height:160px;
         text-align: center;
         border-right:1px solid #eee
     }
