@@ -73,12 +73,13 @@
     color :rgb(148, 117, 77);
 }
 
+/*--------------------------------------------------*/
+
 #contentWrap{
     margin-top: 60px;
     width: 100%;
     height: 250px;
     text-align: center;
-    background-color: white;
     position: relative;
     overflow:auto;
 }
@@ -125,21 +126,24 @@
     background-color: white;
     border : 1px solid #5E4937;
 }
+
+
+/*--------------------------------------------------*/
+
+
 #contentWrap2{
     width: 100%;
     height: 600px;
-    
-    
     position: relative;
     
 }
 #contentWrap2 > div{
-    width: 800px;
+    width: 900px;
     height: 100%;
     position: absolute;
     left: 50%;
     top:50%;
-    margin-left: -400px;
+    margin-left: -450px;
     margin-top:-300px;
     
     display: flex;
@@ -249,6 +253,188 @@
 
 }
 
+/*--------------------------------------------------*/
+
+
+#contentWrap3 {
+    width: 100%;
+    height: 600px;
+    position: relative;
+   
+}
+
+#contentWrap3 > div{
+    width: 900px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-left: -450px;
+    margin-top:-300px;
+    
+    display: flex;
+    flex-direction: row;
+}
+#contentWrap3 > div >  .flexBox2{
+    width: 50%;
+    
+    margin-left: 10px;
+    margin-right:10px;
+    
+}
+
+/*--------------------------------------------------*/
+#contentWrap3 > div > #fundingSupporter >div>div> p{
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+#contentWrap3 > div > #fundingSupporter >div>h1{
+    font-size: 35px;
+    color: #5E4937;
+}
+#contentWrap3 > div > #fundingSupporter >div>div> p{
+    color: #a39592ee
+}
+
+#contentWrap3 > div > #fundingSupporter >div>div> p>span{
+    display: block;
+    margin-bottom: 2.5%;
+    font-weight: bold;
+    color: #5E4937;
+
+}
+#contentWrap3 > div > #fundingSupporter >div{
+    width:100%;
+    
+}
+
+#contentWrap3 > div > #fundingSupporter >div>#div1{
+    width:95%;
+    height: auto;
+    background-color: rgb(247, 238, 226);
+    padding-top: 1%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 5%;
+}   
+input[type="checkbox"]{
+    display:none;
+    }
+
+  input[type="checkbox"] + label{
+    cursor:pointer;
+   }
+  
+
+  input[type="checkbox"] + label:before{
+    
+    content:"";
+    display:inline-block;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    border:1px solid #5E4937;
+    vertical-align:middle;
+    }
+    
+
+  input[type="checkbox"]:checked + label:before{
+    content:"\2713";
+    font-family:"Font Awesome 5 free"; 
+    font-weight:900;
+    color:#fff;
+    background-color: #5E4937;
+    border-color: #5E4937;
+    font-size:20px;
+    text-align:center;
+    }
+
+#contentWrap3 > div > #fundingSupporter >div>#progressLabel{
+    font-weight: bold;
+    border-color: #5E4937;
+
+
+}
+
+#contentWrap3 > div > #fundingSupporter >div>#div2>#progressLabel>span{
+    font-weight: bold;
+    color: #5E4937;
+}   
+
+/*--------------------------------------------------*/
+
+#contentWrap3 > div > #paymentInfo >div>h1{
+    font-size: 35px;
+    color: #5E4937;
+}
+
+#contentWrap3 #paymentInfo #buttonList{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: rows;
+}
+#contentWrap3 #paymentInfo #buttonList>button{
+    width: 50%;
+    border-radius: 5%;
+    background-color: white;
+    border:none;
+    padding: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contentWrap3 #paymentInfo #buttonList #conviPay{
+    color: white;
+    background-color: #F4D4CA;
+}
+#contentWrap3 #paymentInfo #creditCard{
+    width: 100%;
+    height:230px;
+    border : 1px solid #5E4937;
+    border-radius: 25px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+#contentWrap3 #paymentInfo #creditCard>p{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-left:-132.7px;
+    margin-top:-13.5px;
+    margin-bottom: 0;
+    font-weight: bold;
+    
+}
+#contentWrap3 #paymentInfo #creditCard #registerCard{
+    display: inline-block;
+   width: 60%;
+   height: auto;
+   border-radius: 0;
+   border : none;
+   border: 1px solid #F4D4CA;
+   background-color: white;
+   color: #F4D4CA;
+   font-size: 20px;
+   padding :2%;
+   margin-top: 35%;
+   
+
+}
+#contentWrap3 #paymentInfo #creditCard #registerCard:hover{
+    background-color: #F4D4CA;
+    color:white;
+    transition : 0.5s;  
+   
+
+}
+
+
+
 
 
 
@@ -301,7 +487,7 @@
 #footerWrap {
     width:fit-content;
     position:absolute;
-    top:1500px;
+    top:2000px;
     margin-left:-168px;
     left: 50%;
     padding-bottom: 50px;
