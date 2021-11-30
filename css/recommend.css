@@ -126,25 +126,25 @@
     border : 1px solid #5E4937;
 }
 
-#selectFunding{
+#recommend{
     position: relative;
     width: 100%;
-    height: 100%;
-    
-    
+    height: 100%; 
 }
-#selectFunding >p{
+
+#recommend >p{
     text-align: center;
     margin: 0;
 }
 
-#selectFunding > p > strong{
+#recommend > p > strong{
     color: #5E4937;
     display: inline-block;
     font-size:30px;
     padding:10px;
 }
-#selectFunding #checkboxList{
+
+#recommend #rewardExplain{
     display: box;
     position: absolute;
     width: 800px;
@@ -152,124 +152,43 @@
     margin-left: -400px;
 }
 
-#selectFunding #checkboxList>div{
+#recommend #rewardExplain #script{
     margin: 5%;
     border:1px solid #5E4937;
-    height: 170px;
+    height: 160px;
+    text-align: center
 }
 
+#recommend #rewardExplain #script >h3{
+    font-size:30px;
+}
 
-input[type="checkbox"]{
-    display:none;
-    }
-
-  input[type="checkbox"] + label{
-    cursor:pointer;
-   }
-  
-
-  input[type="checkbox"] + label:before{
-    margin-left: 5%;
-    margin-top: 3%;
-    content:"";
-    display:inline-block;
-    width:25px;
-    height:25px;
-    line-height:25px;
-    border:1px solid #5E4937;
-    vertical-align:middle;
-    }
-    
-
-  input[type="checkbox"]:checked + label:before{
-    content:"\2713";
-    font-family:"Font Awesome 5 free"; 
-    font-weight:900;
-    color:#fff;
-    background-color: #5E4937;
-    border-color: #5E4937;
+#recommend #rewardExplain #script >p{
     font-size:20px;
-    text-align:center;
-    }
-
-    #selectFunding #checkboxList label>div{
-        margin-left: 5%;
-        display: inline-block;
-        
-    }
-    #selectFunding #checkboxList label>div>h3{
-        display: inline-block;
-    }
-
-    #selectFunding #checkboxList label>p{
-        margin-left: 15%;
-    }
-    
-    #selectFunding #customMoney{
-        margin-top: 700px;
-    }
-
-    #selectFunding #inputSumBox{
-        padding-top: 20px;
-        margin-top: 20px;
-        text-align: center;
-    }
-    
-
-    #selectFunding #customMoney input[type="text"]{
-        display: inline-box;
-        margin: 20px;
-    }
-  #selectFunding #inputSum{
-      width: 10%;
-      font-size: 30px;
-      transition: border-color 1s;
-  }
-  #selectFunding #inputSum:hover{
-      border-color: #F4D4CA;
-      
-
-  }
-
-  #selectFunding #inputSum>span{
-      font-size: 20px;
-  }
-  
-  #selectFunding #inputMessage{
-      width:35%;
-      margin-top: 20px;
-      padding: 5px;
-      font-size: 20px;
-  }
-
-  #selectFunding #disclosure{
-      margin-top: 50px;
-  }
-
-  #selectFunding #disclosureCheck{
-      margin-top: 50px;
-      text-align: center;
-  }
-
-  #selectFunding #disclosureCheck input[type="checkbox"]+ label:before{
-
-    margin-left: 0;
-    margin-top: 0;
-  }
-  #selectFunding #disclosureCheck #open{
-      margin-right: 20px;
-  }
-  #selectFunding #disclosureCheck #close{
-    margin-left: 20px;
 }
 
-#selectFunding #nextStage{
-    margin-top: 60px;
+#recommend #recTo{
+    margin-top: 300px;
+}
+
+#recommend>#sns{
+    margin-left: 905px;
+    margin-top:50px;
+}
+
+#recommend> .snsIcon {
+    width: 20px;
+    padding: 3px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#recommend #finish{
+    margin-top: 30px;
     display: block;
     position: absolute;
     left:50%;
-    margin-left: -65px;
-    
+    margin-left: -42px;
     border : none;
     font-size: 20px;
     font-weight: bold;
@@ -281,17 +200,17 @@ input[type="checkbox"]{
     text-align: center;
 }
 
+
 #footerWrap {
     width:fit-content;
     position:absolute;
-    top:1500px;
+    top:1000px;
     margin-left:-168px;
     left: 50%;
-    
     text-align: center;
-    
     font-size: 14px;
 }
+
 #footerWrap .snsIcon {
     width: 20px;
     padding: 3px;
