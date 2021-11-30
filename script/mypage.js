@@ -11,4 +11,7 @@ $(document).ready(function(){
     $('#headerWrap #titleBox #join').click(function(){
         window.location.href="../html/join.html";
     });
+    $('#my_list #wrapper_card #ex1').click(function(){
+        window.location.href="../html/lifepost.html";
+    });
 });
