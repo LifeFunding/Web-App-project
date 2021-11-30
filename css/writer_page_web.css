@@ -20,6 +20,7 @@
     }
     #headerWrap #titleBox #title {
         color: rgb(68, 53, 30);
+        margin-top : 1.5%;
     }
     #headerWrap #titleBox #plan_funding {
         text-align: center;
@@ -196,7 +197,7 @@
 
     .btnFollow{
         display: block;
-        width:1000px;
+        width:600px;
         height:35px;
         margin:20px 0px;
         background:#908282;
